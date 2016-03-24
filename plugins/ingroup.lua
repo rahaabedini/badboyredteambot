@@ -220,7 +220,7 @@ local function show_group_settingsmod(msg, data, target)
     	leave_ban = data[tostring(msg.to.id)]['settings']['leave_ban']
    	end
   local settings = data[tostring(target)]['settings']
-  local text = "›Group Settings:\n•••Kick new member with link : "..settings.lock_join.."\n•••Lock group Fosh : "..settings.antifosh.."\n•••Lock group chat : "..settings.lock_chat.."\n•••Lock group ads : "..settings.antiads.."\n•••Lock group name : "..settings.lock_name.."\n•••Lock group photo : "..settings.lock_photo.."\n•••kick new member : "..settings.lock_member.."\n•••Lock leave ban : "..leave_ban.."\n•••flood set on : "..NUM_MSG_MAX.."\n•••Bot can come : "..bots_protection.."                                        ›»Nod32 People Version 7.8 (◉_◉)"
+  local text = "›⚙Group Settings:⚙\n🔸🔸🔸Kick new member with link : "..settings.lock_join.."\n🔸🔸🔸Lock group Fosh : "..settings.antifosh.."\n🔸🔸🔸Lock group chat : "..settings.lock_chat.."\n🔸🔸🔸Lock group ads : "..settings.antiads.."\n🔸🔸🔸Lock group name : "..settings.lock_name.."\n🔸🔸🔸Lock group photo : "..settings.lock_photo.."\n🔸🔸🔸kick new member : "..settings.lock_member.."\n🔸🔸🔸Lock leave ban : "..leave_ban.."\n🔸🔸🔸lood set on : "..NUM_MSG_MAX.."\n🔸🔸🔸bot can come : "..bots_protection.."                             avast bot Version 6 (*_*)
   return text
 end
 
